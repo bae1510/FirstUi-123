@@ -1,0 +1,31 @@
+
+.test{
+
+    height : 50px;
+    width : 100px;
+    background-color: rgb(77, 50, 39);
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(229, 229, 199);
+
+}
+
+.mystyle {
+    color: rgb(79, 75, 75);
+    background-color:pink;
+    height: 200px;
+    width: 500px;
+    padding: 30px;
+    margin-top: 40px;
+    margin-left:550px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+   
+  };
+
+  .tst{
+    font-size: medium;
+    margin-top: 30px;
+    margin-left: 20px;
+  }
