@@ -1,5 +1,11 @@
 .App {
   text-align: center;
+  margin-top: 250px;
+  background-color: pink;
+  padding: 30px;
+  margin-left: 500px;
+  margin-right: 500px;
+  box-shadow: rgba(197, 40, 163, 0.25) 0px 54px 55px, rgba(178, 20, 133, 0.12) 0px -12px 30px, rgba(234, 65, 191, 0.12) 0px 4px 6px, rgba(231, 45, 166, 0.17) 0px 12px 13px, rgba(201, 30, 152, 0.09) 0px -3px 5px;
 }
 
 .App-logo {
@@ -35,4 +41,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+.txt{
+  border: none;
+  padding: 10px;
+  background-color: rgb(245, 237, 239);
+  border-radius: 10px;
+  margin-left: 2px;
 }
