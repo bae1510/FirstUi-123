@@ -4,7 +4,7 @@ import './App.css';
 import Filepicker from './component/filepicker';
 //import { Invitation } from './component/Invitation';
 //import { Component } from './component/Content';
-//import Image from './component/image';
+import Image from './component/image';
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
  
   return (
     <div className="App" >
-<Filepicker/>
+    <Image/>
     </div>
   );
 }
