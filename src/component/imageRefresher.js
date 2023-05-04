@@ -1,15 +1,17 @@
 
 import { useEffect, useState } from 'react';
+import axios from 'axios';
 
 export function ImageRefresher() {
 
-    const [image, setImage] = useState('https://images.pexels.com/photos/4825701/pexels-photo-4825701.jpeg?auto=compress&cs=tinysrgb&w=600');
+    const [image, setImage] = useState([]);
 
     useEffect(() => {
 
-        fetch('https://dog.ceo/api/breeds/image/random')
-            .then((data) => data.json())
-            .then((response) => setImage(response.message))
+       axios.get('https://dog.ceo/api/breeds/image/randomy')
+            //.then((data) => data.json())
+           .then((response) =>setImage(response.data.message))
+          
             .catch((error) => console.log(error));
 
     }, [])
