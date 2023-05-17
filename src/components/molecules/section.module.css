@@ -1,3 +1,6 @@
+/* @media screen and (min-width : 1024){ */
+    
+
 .btn{
     width: 100px;
     height: 40px;
@@ -13,13 +16,36 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     height: 400px;
+    float: right;
+    margin-left: 10rem;
    
 
 }
 
 .content{
-    width: 900px;
-    margin-top: 80px;
-    margin-left: 50px;
-}
+    width: 100%;
+    /* margin-top: 200px;
+    margin-left: 50px;  */
+    /* float:right  */
+    display: flex;
+    align-items: center;
+   
+    margin-top: 5rem;
+    margin-left: 1rem;
+ 
 
+
+}
+/* } */
+
+
+@media screen and (max-width : 500px) {
+    .img{
+        display: none;
+    }
+
+    /* .content{
+        display: none;
+    } */
+    
+}

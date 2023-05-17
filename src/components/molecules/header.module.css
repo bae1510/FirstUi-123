@@ -1,11 +1,20 @@
-@media screen and (min-width : 650px) {
+ @media screen and (min-width : 1024px) { 
 
     .navOptions {
     display: flex;
     justify-content: space-between;
     background-color: rgb(153, 149, 229);
     color: white;
+    border: 1px solid yellowgreen;
+    border-radius: 5px;
 }
+.navOptions:hover{
+    background-color: #5b5e60;
+}
+/* .navOption {
+    border: 1px solid yellowgreen;
+    border-radius: 5px;
+} */
 
 /* .navOptions > .nav-logo {
     font-size: 21px;
@@ -25,8 +34,35 @@
     font-size: large;
     height: 30px;
 }
+
+
+
+
+.menu{
+    display: none;
+}
 }
 
-.navOption{
-    display: none;
+@media screen and (max-width : 500px) {
+
+
+    .menu{
+        width: 10vw;
+        height: 10vh;
+    }
+
+    .navOptions{
+        display: none;
+    }
+
+    .menu{
+        height: 20vh;
+        width: 2vw;
+    }
+    .icon {
+        margin-top: 2px;
+        margin-left: 30px;
+        font-size: large;
+        height: 10vh;
+    }
 }
